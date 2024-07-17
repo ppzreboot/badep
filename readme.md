@@ -13,3 +13,13 @@ Balencing Deleting Problem -- chapgpt 如是说。
 ``` bash
 npm install badep
 ```
+
+L 为 8，D 为 3 时：
+``` js
+import { badep } from 'badep'
+
+console.log(
+  badep(8, 3)
+) // [2, 5, 7]
+```
+badep() 的返回值，是被删除元素的下标。
