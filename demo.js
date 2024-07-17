@@ -1,4 +1,4 @@
-import { badep } from '../lib'
+import { badep } from './index.js'
 
 const el = id => document.getElementById(id)
 const error = err => {

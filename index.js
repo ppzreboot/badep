@@ -1,10 +1,5 @@
-// chatgpt 说这叫“balancing deleting problem”，我在 google 上没搜到相关名称
-
-/** 从 len 个元素的数组中，删除 to_d 个元素，这些被删除的元素是比较均匀地分布于数组中。
- * @returns 被删除元素的下标
- */
 export
-function badep(len: number, to_d: number): number[] { // 这是一个 npm 上未注册的名字
+function badep(len, to_d) { // 这是一个 npm 上未注册的名字
   // console.debug({ len, to_d })
   if (to_d === 0) return []
   if (to_d < 0) throw Error('invalid to_d')
@@ -17,7 +12,7 @@ function badep(len: number, to_d: number): number[] { // 这是一个 npm 上未
     opposite = true
   }
 
-  const result: number[] = []
+  const result = []
   let i = 0
   let remaining = len
   while (true) {

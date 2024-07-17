@@ -1,17 +1,13 @@
 {
   "name": "badep",
-  "private": true,
   "version": "0.0.1",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "test": "vitest",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "demo": "http-server",
+    "test": "vitest"
   },
   "devDependencies": {
-    "typescript": "^5.2.2",
-    "vite": "^5.3.4",
+    "http-server": "^14.1.1",
     "vitest": "^2.0.3"
   }
 }
