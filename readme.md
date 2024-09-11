@@ -6,7 +6,7 @@
 但是，另一个问题：还是有个数组，里面有 L 个元素，现在要从里面删除 D 个元素。
 ……
 
-Balencing Deleting Problem -- chapgpt 如是说。
+**BA**lencing **DE**leting **P**roblem -- chapgpt 如是说。
 但我在 google 和百度上都没搜索到相关词条。
 
 ## 用法
